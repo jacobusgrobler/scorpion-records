@@ -210,8 +210,8 @@
     }
 
     .youtube-thumbnail {
-        width: 90%;
-        max-width: 450px;
+        width: 50%;
+        /* max-width: 450px; */
         aspect-ratio: 9 / 16;
         object-fit: cover;
         object-position: center;
