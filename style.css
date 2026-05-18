@@ -194,6 +194,14 @@
       margin-bottom: 60px;
     }
 
+    .slide-right {
+      transform: translateX(60px);
+    }
+  
+    .slide-left {
+      transform: translateX(-60px);
+    }
+
     .youtube-thumbnail {
         width: 95%;
         margin-bottom: 50px;
