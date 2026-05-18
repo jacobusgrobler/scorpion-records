@@ -214,7 +214,7 @@
         /* max-width: 450px; */
         aspect-ratio: 9 / 16;
         object-fit: cover;
-        object-position: center;
+        object-position: left;
         display: block;
         margin-bottom: 80px;
         border-radius: 20px;
@@ -232,8 +232,6 @@
       }
 
       .social-links a {
-
         -webkit-tap-highlight-color: transparent;
-      
       }
   }
