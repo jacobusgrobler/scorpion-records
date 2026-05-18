@@ -147,28 +147,34 @@
     justify-content: center;
     align-items: center;
     gap: 25px;
-  
     padding-bottom: 80px;
     flex-wrap: wrap;
+    text-decoration: none;
+    outline: none;
+    border: none;
   }
+
+  .social-links a:focus,
+  .social-links a:active {
+    outline: none;
+    border: none;
+
+}
   
   /* CLICKABLE ICONS */
   .youtube-thumbnail {
     width: 90%;
-    max-width: 700px;
-  
-    display: block;
-  
-    margin-bottom: 80px;
-  
-    border-radius: 20px;
-  
+    max-width: 450px;
+    aspect-ratio: 9 / 16;
     object-fit: cover;
-  
+    object-position: center;
+    display: block;
+    margin-bottom: 80px;
+    border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-  
-    transition: transform 0.4s ease,
-                opacity 0.4s ease;
+    transition:
+      transform 0.4s ease,
+      opacity 0.4s ease;      
   }
   
   /* HOVER EFFECT */
@@ -204,12 +210,30 @@
     }
 
     .youtube-thumbnail {
-        width: 95%;
-        margin-bottom: 50px;
-        border-radius: 14px;
+        width: 90%;
+        max-width: 450px;
+        aspect-ratio: 9 / 16;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+        margin-bottom: 80px;
+        border-radius: 20px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        transition:
+          transform 0.4s ease,
+          opacity 0.4s ease;      
       }
     
       .social-links {
         gap: 18px;
+        text-decoration: none;
+        outline: none;
+        border: none;
+      }
+
+      .social-links a {
+
+        -webkit-tap-highlight-color: transparent;
+      
       }
   }
