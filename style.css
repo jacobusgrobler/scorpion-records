@@ -198,6 +198,11 @@
   /* MOBILE */
   @media (max-width: 768px) {
   
+    img,
+    video {
+      display: block;
+    }
+
     .hero-content {
       padding: 40px 15px;
     }
