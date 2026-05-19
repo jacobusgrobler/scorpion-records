@@ -241,7 +241,9 @@
         align-items: center;
         justify-content: center;
         gap: 18px;
-        width: 80%;
+        /* width: 80%; */
+        padding-left: 0;
+        padding-right: 0;
       }
 
       .social-links a {
