@@ -214,18 +214,17 @@
     }
   
     .hero-content p {
+      font-size: small;
       margin-bottom: 60px;
       margin-top: 20px;
     }
 
     .slide-right {
       transform: translateX(60px);
-      font-size: small;
     }
   
     .slide-left {
       transform: translateX(-60px);
-      font-size: 5px;
     }
 
     .youtube-thumbnail {
