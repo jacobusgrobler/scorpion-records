@@ -225,7 +225,7 @@
   
     .slide-left {
       transform: translateX(-60px);
-      font-size: small;
+      font-size: 5px;
     }
 
     .youtube-thumbnail {
