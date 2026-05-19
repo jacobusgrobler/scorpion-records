@@ -229,7 +229,7 @@
     }
 
     .youtube-thumbnail {
-      width: 100%;
+      /* width: 100%; */
       max-width: 190px;
       margin: 0 auto 60px;
       display: block; 
