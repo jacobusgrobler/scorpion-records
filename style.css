@@ -10,7 +10,6 @@
     min-height: 100%;
     font-family: Arial, sans-serif;
     overflow-x: hidden;
-    /* background: #000; */
     color: white;
   }
   
@@ -141,17 +140,30 @@
     transform: scale(1.02);
   }
 
+  /* SOCIAL SECTION HEADING */
+.section-heading {
+  width: 100%;
+  text-align: center;
+  font-family: 'Bungee Tint', sans-serif;
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin-bottom: 60px;
+  letter-spacing: 6px;
+  color: white;
+  text-shadow:
+    0 0 10px rgba(255,255,255,0.3),
+    0 0 20px rgba(255,255,255,0.2);
+}
+
   /* SOCIAL LINK CONTAINER */
 .social-links {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    gap: 25px;
-    padding-bottom: 80px;
+    align-items: flex-start;
+    gap: 30px;
     flex-wrap: wrap;
-    text-decoration: none;
-    outline: none;
-    border: none;
+    width: 100%;
+    padding: 40px 20px 100px;
   }
 
   .social-links a:focus,
@@ -163,13 +175,12 @@
   
   /* CLICKABLE ICONS */
   .youtube-thumbnail {
-    width: 90%;
-    max-width: 450px;
+    width: 100%;
+    max-width: 260px;
     aspect-ratio: 9 / 16;
     object-fit: cover;
     object-position: center;
     display: block;
-    margin-bottom: 80px;
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
     transition:
@@ -203,10 +214,12 @@
 
     .slide-right {
       transform: translateX(60px);
+      font-size: small;
     }
   
     .slide-left {
       transform: translateX(-60px);
+      font-size: small;
     }
 
     .youtube-thumbnail {
